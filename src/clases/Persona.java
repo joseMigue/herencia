@@ -2,8 +2,8 @@ package clases;
 
 public abstract class Persona {
 	
-	protected String nombre;
-	protected String dni;
+	private  String nombre;
+	private  String dni;
 	
 	public Persona(String nombre,String dni) {
 		this.nombre = nombre;
